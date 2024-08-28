@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  align-items: center; 
+  padding: 10px; 
+  background-color: #404756;
+}
+
+nav img {
+  margin-right: 20px; 
+  max-width: 100px; 
+  height: auto; 
+}
+
+nav .titulo {
+  flex: 1; 
+  text-align: center; 
+}
+
+nav .titulo a {
+  text-decoration: none;
+  color: #ffffff; 
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav i {
+  font-size: 24px; /* Ajusta el tamaño del ícono según sea necesario */
+  margin: 0 10px;  /* Espaciado entre los íconos */
+  color: blue;     /* Cambia el color del ícono a azul */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+  padding-right: 40px;
+}
